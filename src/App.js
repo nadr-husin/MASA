@@ -5,8 +5,12 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTiktok } from "@fortawesome/free-brands-svg-icons";
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(()=>{
+    document.title = "MASA";
+  },[])
   return (
     <div
       className="container"
@@ -21,7 +25,7 @@ function App() {
         <h2>MASA</h2>
 
         <motion.a
-          href="https://www.facebook.com"
+          href="https://www.facebook.com/share/1ApfNM8i7Z/?mibextid=wwXIfr"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: -250 }}
@@ -33,7 +37,7 @@ function App() {
         </motion.a>
 
         <motion.a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/masastore000?igsh=b25pZHk4NTA0M295"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, x: -250 }}
@@ -45,7 +49,7 @@ function App() {
         </motion.a>
 
         <motion.a
-          href="https://www.tiktok.com"
+          href="https://www.tiktok.com/@masastore000?_r=1&_t=ZS-92lOI7Fzjm5"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, x: 250 }}
@@ -60,7 +64,7 @@ function App() {
         </motion.a>
 
         <motion.a
-          href="https://wa.me/201234567890"
+          href="https://wa.me/201103641751"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: 250 }}
